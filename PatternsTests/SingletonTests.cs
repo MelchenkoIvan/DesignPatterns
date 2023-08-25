@@ -7,7 +7,7 @@ public class SingletonTests
     {
         var s1 = Singleton.GetInstance();
         var s2 = Singleton.GetInstance();
-        
-        Assert.Equal(s1,s2);
+
+        s1.Should().Be(s2);
     }
 }

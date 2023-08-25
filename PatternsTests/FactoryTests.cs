@@ -6,7 +6,7 @@ namespace PatternsTests;
 public class FactoryTests
 {
     [Fact]
-    public async Task Truck_should_move()
+    public async Task Truck_should_be_move()
     {
         var truckManager = new TruckManager();
         var transport = await GetTransport(truckManager);
@@ -17,7 +17,7 @@ public class FactoryTests
     }
     
     [Fact]
-    public async Task Bus_should_move()
+    public async Task Bus_should_be_move()
     {
         var busManager = new BusManager();
         var transport = await GetTransport(busManager);
@@ -28,7 +28,7 @@ public class FactoryTests
     }
     
     [Fact]
-    public async Task Juorney()
+    public async Task Journey_time_for_transport_should_be_the_same()
     {
         var busJourneyTime = await (new BusManager()).CalculateJourneyTime();
         var truckJourneyTime = await (new TruckManager()).CalculateJourneyTime();
