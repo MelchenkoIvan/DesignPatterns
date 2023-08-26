@@ -1,3 +1,5 @@
+using Patterns.Singleton;
+
 namespace PatternsTests;
 
 public class SingletonTests

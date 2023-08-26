@@ -1,4 +1,4 @@
-namespace Patterns;
+namespace Patterns.Singleton;
 
 public sealed class Singleton
 {
