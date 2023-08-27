@@ -1,4 +1,4 @@
-namespace Patterns.Constants;
+namespace Patterns.Factory.Constants;
 
 public static class FactoryConstants
 {

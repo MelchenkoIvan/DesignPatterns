@@ -1,3 +1,5 @@
+using Patterns.Factory.Constants;
+
 namespace Patterns.Factory.Product;
 
 public class Bus : ITransport
