@@ -1,5 +1,5 @@
-using Patterns.Facade;
-using Patterns.Shared.Entities;
+using Patterns.Structural.Facade;
+using Patterns.Structural.Facade.Resources;
 
 namespace PatternsTests;
 

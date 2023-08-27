@@ -1,6 +1,6 @@
-using Patterns.Factory.Constants;
-using Patterns.Factory.Creator;
-using Patterns.Factory.Product;
+using Patterns.Creational.Factory.Constants;
+using Patterns.Creational.Factory.Creator;
+using Patterns.Creational.Factory.Product;
 
 namespace PatternsTests;
 

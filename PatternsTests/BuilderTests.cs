@@ -1,5 +1,7 @@
-using Patterns.Builder;
-using Patterns.Builder.Constants;
+
+
+using Patterns.Creational.Builder;
+using Patterns.Creational.Builder.Constants;
 
 namespace PatternsTests;
 

@@ -8,7 +8,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Mediator\" />
+      <Folder Include="Behavioral\Iterator\" />
+      <Folder Include="Behavioral\Mediator\" />
+      <Folder Include="Behavioral\Observer\" />
+      <Folder Include="Behavioral\State\" />
+      <Folder Include="Creational\Prototype\" />
+      <Folder Include="Structural\Proxy\" />
     </ItemGroup>
 
 </Project>
