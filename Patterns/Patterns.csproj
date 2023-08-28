@@ -8,8 +8,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Behavioral\Iterator\" />
-      <Folder Include="Behavioral\Mediator\CustomMediator\" />
       <Folder Include="Behavioral\Observer\" />
       <Folder Include="Behavioral\State\" />
     </ItemGroup>
