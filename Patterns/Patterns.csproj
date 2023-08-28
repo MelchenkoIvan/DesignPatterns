@@ -9,9 +9,14 @@
 
     <ItemGroup>
       <Folder Include="Behavioral\Iterator\" />
-      <Folder Include="Behavioral\Mediator\" />
+      <Folder Include="Behavioral\Mediator\CustomMediator\" />
       <Folder Include="Behavioral\Observer\" />
       <Folder Include="Behavioral\State\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="12.1.1" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0-preview.7.23375.6" />
     </ItemGroup>
 
 </Project>
