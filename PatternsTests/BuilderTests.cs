@@ -20,7 +20,7 @@ public class BuilderTests
         var car = await (await ironCarBuilder.GetProduct()).ShowCarComponents();
         
         car.Should().Contain(BuilderConstants.Iron);
-        car.Should().NotContain(BuilderConstants.Iron);
+        car.Should().NotContain(BuilderConstants.Steel);
         car.Should().Contain(BuilderConstants.Roof);
     }
     

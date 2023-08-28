@@ -12,7 +12,6 @@
       <Folder Include="Behavioral\Mediator\" />
       <Folder Include="Behavioral\Observer\" />
       <Folder Include="Behavioral\State\" />
-      <Folder Include="Structural\Proxy\" />
     </ItemGroup>
 
 </Project>
